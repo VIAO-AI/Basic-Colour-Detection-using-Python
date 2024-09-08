@@ -1,4 +1,4 @@
-# Basic Colour Detection Using Python By Viao.ai
+# Basic Colour Detection Using Python By VIAO.AI
 This project, developed by VIAO.AI, is a friendly and practical introduction to computer vision, designed for beginners and technology enthusiasts. Through a simple example of basic colour detection (red, green and blue), we will show you how to teach a computer to ‘see’ the world around us.
 
 # Colour Detection with VIAO.AI: Teaching the Computer to See Like You Do!

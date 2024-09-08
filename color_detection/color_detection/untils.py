@@ -3,15 +3,15 @@ import numpy as np
 
 def detect_colors(image, color_ranges):
   """
-  Detecta colores definidos en 'color_ranges' en una imagen y devuelve la imagen con los contornos dibujados y los contornos encontrados.
-
-  **Objetivo:** Enseñar a la computadora a "ver" como nosotros, identificando colores específicos. 
-  **Pasos:**
-    1. **Convertir la imagen:** La imagen se convierte al espacio de color HSV para facilitar la detección de colores.
-    2. **Crear máscaras:** Para cada color, se crea una máscara que resalta solo las zonas con ese color.
-    3. **Encontrar contornos:** Se buscan los bordes de las zonas de color en las máscaras.
-    4. **Dibujar contornos:** Los contornos encontrados se dibujan en la imagen original.
-  """
+  Detects colours defined in ‘colour_ranges’ in an image and returns the image with the contours drawn and the contours found.
+  
+  **Objective:** To teach the computer to ‘see’ as we do, identifying specific colours. 
+  **Steps
+    1. **Convert the image:** The image is converted to the HSV colour space to facilitate colour detection.
+    2. **Create masks:** For each colour, a mask is created that highlights only the areas with that colour.
+    3. **Find outlines:** The edges of the colour areas in the masks are searched for.
+    4. **Draw contours:** The contours found are drawn on the original image.
+  ‘"’
 
   hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
 

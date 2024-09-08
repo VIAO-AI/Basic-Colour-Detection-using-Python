@@ -50,4 +50,4 @@ HSV colour space:** A special way of seeing colours that the computer understand
 **Masks:** Magic filters that help find specific colours.
 Contour detection: A way to find the edges of objects in an image.
 
-Thank you for learning with VIAO.AI! We hope this project has inspired you to explore more of the world of computer vision.
+**Thank you for learning with VIAO.AI! We hope this project has inspired you to explore more of the world of computer vision.**
